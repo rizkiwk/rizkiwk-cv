@@ -13,6 +13,24 @@
       "from": "live"
     }
   ],
+  "atlas-property": [
+    {
+      "src": "shots/atlas-property/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/atlas-property/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/atlas-property/live-03.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/atlas-property/live-04.webp",
+      "from": "live"
+    }
+  ],
   "dget-quiz": [
     {
       "src": "shots/dget-quiz/live-01.webp",
@@ -136,6 +154,20 @@
     },
     {
       "src": "shots/rt-creator-challange/live-03.webp",
+      "from": "live"
+    }
+  ],
+  "sippp-harkit": [
+    {
+      "src": "shots/sippp-harkit/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/sippp-harkit/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/sippp-harkit/live-03.webp",
       "from": "live"
     }
   ],

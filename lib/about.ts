@@ -182,6 +182,18 @@ export const about: Record<string, Bi> = {
     en: "A live quiz for a neighbourhood Independence Day event, played from phones. Built with Next.js.",
     id: "Kuis langsung untuk acara Kemerdekaan tingkat RT yang dimainkan dari ponsel. Dibangun dengan Next.js.",
   },
+  "atlas-property": {
+    en: "The website of Atlas Property, a property developer in Purwokerto, presenting its two estates: Arcadia, an investment boarding-house community, and Casavida, a residential community. Includes project pages, documentation and FAQ. Built with Next.js.",
+    id: "Situs Atlas Property, pengembang properti di Purwokerto, yang menampilkan dua kawasannya: Arcadia, kawasan kost investasi, dan Casavida, kawasan hunian. Mencakup halaman proyek, dokumentasi, dan tanya jawab. Dibangun dengan Next.js.",
+  },
+  "sippp-harkit": {
+    en: "The training website of the education, training and library unit at RSAB Harapan Kita, a mother and child hospital. It lists medical, non-medical and general classes with a training calendar, facilities information and online registration. Built on WordPress.",
+    id: "Situs pelatihan unit pendidikan, pelatihan, dan perpustakaan di RSAB Harapan Kita, rumah sakit ibu dan anak. Menampilkan kelas medis, non medis, dan umum dengan kalender pelatihan, informasi fasilitas, dan pendaftaran online. Dibangun di atas WordPress.",
+  },
+  "sgmw-multifinance": {
+    en: "The company website of SGMW Multifinance, a vehicle-financing company. Built on WordPress.",
+    id: "Situs perusahaan SGMW Multifinance, perusahaan pembiayaan kendaraan. Dibangun di atas WordPress.",
+  },
   pumpcrush: {
     en: "A Web3 game concept combining blockchain mechanics with gameplay.",
     id: "Konsep game Web3 yang memadukan mekanika blockchain dengan gameplay.",

@@ -385,7 +385,7 @@ export const liveSites: Record<string, LiveSite> = {
   },
 };
 
-/** Vercel-only deployments that have no GitHub repo in the account. */
+/** Live sites without a public repo of their own (Vercel-only or hosted elsewhere). */
 export const vercelOnly: Curated[] = [
   {
     name: "jagadhita-sinergi-sejati",
@@ -420,6 +420,39 @@ export const vercelOnly: Curated[] = [
     language: "Next.js",
     tags: ["Next.js", "Vercel", "Quiz"],
     homepage: "https://quiz-rt011.warunet.id",
+    category: "Web",
+    status: "Live",
+  },
+  {
+    name: "atlas-property",
+    repo: "atlas-property",
+    title: "Atlas Property",
+    description: "",
+    language: "Next.js",
+    tags: ["Next.js", "Property", "Website"],
+    homepage: "https://atlasproperty.co.id",
+    category: "Web",
+    status: "Live",
+  },
+  {
+    name: "sippp-harkit",
+    repo: "sippp-harkit",
+    title: "SIPPP Harkit",
+    description: "",
+    language: "WordPress",
+    tags: ["WordPress", "Training", "Healthcare"],
+    homepage: "https://sippp.rsabhk.co.id",
+    category: "Web",
+    status: "Live",
+  },
+  {
+    name: "sgmw-multifinance",
+    repo: "sgmw-multifinance",
+    title: "SGMW Multifinance",
+    description: "",
+    language: "WordPress",
+    tags: ["WordPress", "Website", "Finance"],
+    homepage: "https://sgmwmultifinance.id",
     category: "Web",
     status: "Live",
   },
