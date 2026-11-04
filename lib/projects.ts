@@ -92,7 +92,7 @@ function build(): Project[] {
       name: c.name,
       repo: c.repo,
       title: c.title,
-      description: c.description,
+      description: about[c.repo] ? shortOf(about[c.repo].en) : c.description,
       language: c.language,
       tags: c.tags,
       homepage: c.homepage,
@@ -121,6 +121,14 @@ function build(): Project[] {
 }
 
 export const projects: Project[] = build();
+
+// Guard: a card with no description renders as an empty box, so fail the build instead.
+const blank = projects.filter((p) => !p.description.trim());
+if (blank.length) {
+  throw new Error(
+    `Projects without a description (add them to lib/about.ts): ${blank.map((p) => p.repo).join(", ")}`,
+  );
+}
 
 export const projectStats = {
   total: projects.length,
