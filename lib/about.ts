@@ -191,8 +191,8 @@ export const about: Record<string, Bi> = {
     id: "Situs pelatihan unit pendidikan, pelatihan, dan perpustakaan di RSAB Harapan Kita, rumah sakit ibu dan anak. Menampilkan kelas medis, non medis, dan umum dengan kalender pelatihan, informasi fasilitas, dan pendaftaran online. Dibangun di atas WordPress.",
   },
   "sgmw-multifinance": {
-    en: "The company website of SGMW Multifinance, a vehicle-financing company. Built on WordPress.",
-    id: "Situs perusahaan SGMW Multifinance, perusahaan pembiayaan kendaraan. Dibangun di atas WordPress.",
+    en: "The company website of SGMW Multifinance Indonesia, a vehicle-financing company and member of the SAIC Group. It presents financing promotions, a credit simulator by region and vehicle model, news, and investor and career information. Built on WordPress.",
+    id: "Situs perusahaan SGMW Multifinance Indonesia, perusahaan pembiayaan kendaraan yang tergabung dalam SAIC Group. Menampilkan promo pembiayaan, simulasi kredit berdasarkan wilayah dan tipe kendaraan, berita, serta informasi investor dan karier. Dibangun di atas WordPress.",
   },
   pumpcrush: {
     en: "A Web3 game concept combining blockchain mechanics with gameplay.",

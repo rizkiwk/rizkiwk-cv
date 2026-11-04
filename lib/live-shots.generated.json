@@ -157,6 +157,24 @@
       "from": "live"
     }
   ],
+  "sgmw-multifinance": [
+    {
+      "src": "shots/sgmw-multifinance/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/sgmw-multifinance/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/sgmw-multifinance/live-03.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/sgmw-multifinance/live-04.webp",
+      "from": "live"
+    }
+  ],
   "sippp-harkit": [
     {
       "src": "shots/sippp-harkit/live-01.webp",
