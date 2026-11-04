@@ -111,19 +111,6 @@
     "images": []
   },
   {
-    "name": "quiz-kahoot",
-    "description": "Mesin kuis langsung bergaya Kahoot: Next.js + Supabase, siap white-label.",
-    "language": "TypeScript",
-    "topics": [],
-    "visibility": "public",
-    "url": "https://github.com/rizkiwk/quiz-kahoot",
-    "stars": 0,
-    "createdAt": "2026-08-23",
-    "pushedAt": "2026-08-23",
-    "sizeKb": 406,
-    "images": []
-  },
-  {
     "name": "doorprize-spin",
     "description": "Undian doorprize 17 Agustus 2026 RT011/RW009 — panggung slot, konsol operator, panel panitia",
     "language": "TypeScript",
@@ -410,18 +397,6 @@
     "createdAt": "2026-06-20",
     "pushedAt": "2026-06-20",
     "sizeKb": 91,
-    "images": []
-  },
-  {
-    "name": "dget-quiz",
-    "description": "",
-    "language": "TypeScript",
-    "topics": [],
-    "visibility": "private",
-    "stars": 0,
-    "createdAt": "2025-10-31",
-    "pushedAt": "2026-06-19",
-    "sizeKb": 63,
     "images": []
   },
   {

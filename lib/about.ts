@@ -74,14 +74,6 @@ export const about: Record<string, Bi> = {
     en: "An Android app that scores board-game rounds at a café, with season points and a leaderboard. Built with Kotlin.",
     id: "Aplikasi Android yang menghitung skor ronde permainan papan di kafe, lengkap dengan poin musim dan papan peringkat. Dibangun dengan Kotlin.",
   },
-  "quiz-kahoot": {
-    en: "A live quiz engine in the style of Kahoot, where players join with a PIN and faster answers earn more points. Built with Next.js and Supabase.",
-    id: "Mesin kuis langsung bergaya Kahoot, di mana peserta masuk dengan PIN dan jawaban lebih cepat mendapat poin lebih besar. Dibangun dengan Next.js dan Supabase.",
-  },
-  "dget-quiz": {
-    en: "A live quiz web app with a quick-join player screen made for phones. Built with Next.js and Tailwind CSS.",
-    id: "Aplikasi kuis langsung berbasis web dengan layar pemain masuk-cepat untuk ponsel. Dibangun dengan Next.js dan Tailwind CSS.",
-  },
   "doorprize-spin": {
     en: "A slot-machine style prize-draw screen for a neighbourhood event, run by the host from a keyboard. Built with Next.js and Supabase.",
     id: "Layar undian bergaya mesin slot untuk acara lingkungan, dijalankan MC lewat papan ketik. Dibangun dengan Next.js dan Supabase.",

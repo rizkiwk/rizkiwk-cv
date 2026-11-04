@@ -14,7 +14,7 @@ const OWNER = "rizkiwk";
 // pass them at run time, e.g.  HIDE_REPOS="repo-a,repo-b" node scripts/sync-repos.mjs
 const HIDE = (process.env.HIDE_REPOS || "").split(",").map((x) => x.trim()).filter(Boolean);
 // Curated out of the portfolio (low signal / not portfolio-worthy).
-const CURATED_OUT = ["laravel_angular_blog","backend-repo","frontend-repo","anyscience","github-final-project","senter-privacy","vm-api","blindbox-bot","Root","Skylens"];
+const CURATED_OUT = ["laravel_angular_blog","backend-repo","frontend-repo","anyscience","github-final-project","senter-privacy","vm-api","blindbox-bot","Root","Skylens","quiz-kahoot","dget-quiz"];
 const EXCLUDE = [/^kingdom-science/i, /^ks-/i, /^rizkiwk-cv$/, /^rizkiwk$/, ...CURATED_OUT.map((n) => new RegExp(`^${n}$`, "i")), ...HIDE.map((n) => new RegExp(`^${n}$`))];
 const MAX_IMG = 8;
 const MIN_BYTES = 15_000, MAX_BYTES = 3_000_000;

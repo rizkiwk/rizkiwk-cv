@@ -31,16 +31,6 @@
       "from": "live"
     }
   ],
-  "dget-quiz": [
-    {
-      "src": "shots/dget-quiz/live-01.webp",
-      "from": "live"
-    },
-    {
-      "src": "shots/dget-quiz/live-02.webp",
-      "from": "live"
-    }
-  ],
   "doorprize-spin": [
     {
       "src": "shots/doorprize-spin/live-01.webp",
@@ -134,12 +124,6 @@
     },
     {
       "src": "shots/pet-shop/live-05.webp",
-      "from": "live"
-    }
-  ],
-  "quiz-kahoot": [
-    {
-      "src": "shots/quiz-kahoot/live-01.webp",
       "from": "live"
     }
   ],

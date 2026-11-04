@@ -372,17 +372,6 @@ export const liveSites: Record<string, LiveSite> = {
   traceori: { homepage: "https://traceori.vercel.app" },
   // GitHub "homepage" points to a dead URL; the live app is an admin panel, so no public link.
   "polytron-asset-tracker": { homepage: "" },
-  "quiz-kahoot": {
-    title: "Kahoot-style Live Quiz",
-    homepage: "",
-    description:
-      "Live quiz engine in the style of Kahoot — Next.js + Supabase, white-label ready.",
-  },
-  "dget-quiz": {
-    title: "Live Quiz (Next.js)",
-    homepage: "",
-    description: "Next.js live quiz application with an instant-join player screen.",
-  },
 };
 
 /**
@@ -473,12 +462,10 @@ export const brandWeight: Record<string, number> = {
   "ai-desk": 42,
   "doorprize-spin": 40,
   "kahoot-rt011": 40,
-  "quiz-kahoot": 38,
   "snackit-game": 38,
   "rt011-17-agustus-2026": 36,
   "snackit-microsite": 36,
   "face-flow": 36,
-  "dget-quiz": 34,
   "warunet-cafe-board-gamification": 34,
   "jenaka_colibri-barakat_id": 34,
   "card-vault": 32,
