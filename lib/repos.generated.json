@@ -1,0 +1,685 @@
+[
+  {
+    "name": "asihspa",
+    "description": "",
+    "language": "HTML",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-10-31",
+    "pushedAt": "2026-11-02",
+    "sizeKb": 16086,
+    "images": []
+  },
+  {
+    "name": "aichat-skincare",
+    "description": "",
+    "language": "",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-09-10",
+    "pushedAt": "2026-09-10",
+    "sizeKb": 0,
+    "images": []
+  },
+  {
+    "name": "digital-edu",
+    "description": "",
+    "language": "",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-09-03",
+    "pushedAt": "2026-09-03",
+    "sizeKb": 0,
+    "images": []
+  },
+  {
+    "name": "polytron-asset-tracker",
+    "description": "",
+    "language": "HTML",
+    "topics": [],
+    "visibility": "private",
+    "homepage": "https://polytron-asset-tracker.vercel.app",
+    "stars": 0,
+    "createdAt": "2026-08-30",
+    "pushedAt": "2026-08-30",
+    "sizeKb": 7054,
+    "images": [
+      {
+        "src": "shots/polytron-asset-tracker/1.png",
+        "from": "docs/panduan/gambar/hp/00-masuk.png"
+      },
+      {
+        "src": "shots/polytron-asset-tracker/2.png",
+        "from": "docs/panduan/gambar/hp/01-beranda.png"
+      },
+      {
+        "src": "shots/polytron-asset-tracker/3.png",
+        "from": "docs/panduan/gambar/hp/02-aktivitas.png"
+      },
+      {
+        "src": "shots/polytron-asset-tracker/4.png",
+        "from": "docs/panduan/gambar/hp/03-antrean.png"
+      },
+      {
+        "src": "shots/polytron-asset-tracker/5.png",
+        "from": "docs/panduan/gambar/hp/04-profil.png"
+      },
+      {
+        "src": "shots/polytron-asset-tracker/6.png",
+        "from": "docs/panduan/gambar/hp/05-pindai.png"
+      },
+      {
+        "src": "shots/polytron-asset-tracker/7.png",
+        "from": "docs/panduan/gambar/hp/06-checkout.png"
+      },
+      {
+        "src": "shots/polytron-asset-tracker/8.png",
+        "from": "docs/panduan/gambar/hp/07-form-terisi.png"
+      }
+    ]
+  },
+  {
+    "name": "monto",
+    "description": "",
+    "language": "PLpgSQL",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-07-27",
+    "pushedAt": "2026-08-24",
+    "sizeKb": 22822,
+    "images": [
+      {
+        "src": "shots/monto/1.jpg",
+        "from": "MONTO-V2.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "motownpropertybali",
+    "description": "",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-08-24",
+    "pushedAt": "2026-08-24",
+    "sizeKb": 4808,
+    "images": []
+  },
+  {
+    "name": "quiz-kahoot",
+    "description": "Mesin kuis langsung bergaya Kahoot: Next.js + Supabase, siap white-label.",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/quiz-kahoot",
+    "stars": 0,
+    "createdAt": "2026-08-23",
+    "pushedAt": "2026-08-23",
+    "sizeKb": 406,
+    "images": []
+  },
+  {
+    "name": "doorprize-spin",
+    "description": "Undian doorprize 17 Agustus 2026 RT011/RW009 — panggung slot, konsol operator, panel panitia",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/doorprize-spin",
+    "stars": 0,
+    "createdAt": "2026-08-21",
+    "pushedAt": "2026-08-21",
+    "sizeKb": 236,
+    "images": []
+  },
+  {
+    "name": "rt011-17-agustus-2026",
+    "description": "RT011 — Festival Kreator Kemerdekaan 17 Agustus 2026: aset, dokumen legal/komersial, gateway WhatsApp. Dipetakan lewat senku-graph CI.",
+    "language": "HTML",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-07-29",
+    "pushedAt": "2026-08-21",
+    "sizeKb": 21525,
+    "images": []
+  },
+  {
+    "name": "padel-management-system",
+    "description": "",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-08-12",
+    "pushedAt": "2026-08-15",
+    "sizeKb": 8127,
+    "images": [
+      {
+        "src": "shots/padel-management-system/1.png",
+        "from": "docs/penawaran-assets/desk-akademi.png"
+      },
+      {
+        "src": "shots/padel-management-system/2.png",
+        "from": "docs/penawaran-assets/desk-aset.png"
+      },
+      {
+        "src": "shots/padel-management-system/3.png",
+        "from": "docs/penawaran-assets/desk-kasir.png"
+      },
+      {
+        "src": "shots/padel-management-system/4.png",
+        "from": "docs/penawaran-assets/desk-kebocoran.png"
+      },
+      {
+        "src": "shots/padel-management-system/5.png",
+        "from": "docs/penawaran-assets/desk-kinerja.png"
+      },
+      {
+        "src": "shots/padel-management-system/6.png",
+        "from": "docs/penawaran-assets/desk-lapangan.png"
+      },
+      {
+        "src": "shots/padel-management-system/7.png",
+        "from": "docs/penawaran-assets/desk-operasional.png"
+      },
+      {
+        "src": "shots/padel-management-system/8.png",
+        "from": "docs/penawaran-assets/desk-uang.png"
+      }
+    ]
+  },
+  {
+    "name": "warunet-cafe-board-gamification",
+    "description": "",
+    "language": "Kotlin",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-08-13",
+    "pushedAt": "2026-08-15",
+    "sizeKb": 381,
+    "images": []
+  },
+  {
+    "name": "erp-next",
+    "description": "",
+    "language": "Python",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-08-14",
+    "pushedAt": "2026-08-14",
+    "sizeKb": 4718,
+    "images": []
+  },
+  {
+    "name": "warunet-atp-erp-next",
+    "description": "",
+    "language": "Python",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-08-14",
+    "pushedAt": "2026-08-14",
+    "sizeKb": 1669,
+    "images": []
+  },
+  {
+    "name": "wondergel-band",
+    "description": "",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-08-13",
+    "pushedAt": "2026-08-13",
+    "sizeKb": 2038,
+    "images": []
+  },
+  {
+    "name": "avos-presence",
+    "description": "",
+    "language": "HTML",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-08-12",
+    "pushedAt": "2026-08-12",
+    "sizeKb": 1499,
+    "images": []
+  },
+  {
+    "name": "ai-desk",
+    "description": "",
+    "language": "C",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-08-11",
+    "pushedAt": "2026-08-11",
+    "sizeKb": 658,
+    "images": []
+  },
+  {
+    "name": "skin-check",
+    "description": "",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-08-10",
+    "pushedAt": "2026-08-11",
+    "sizeKb": 1353,
+    "images": []
+  },
+  {
+    "name": "bintang-cosmetic",
+    "description": "",
+    "language": "C#",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-08-10",
+    "pushedAt": "2026-08-10",
+    "sizeKb": 2115,
+    "images": []
+  },
+  {
+    "name": "mri-protocol-assistant",
+    "description": "",
+    "language": "Dart",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-06-05",
+    "pushedAt": "2026-08-10",
+    "sizeKb": 310,
+    "images": []
+  },
+  {
+    "name": "pdf-reader",
+    "description": "",
+    "language": "Kotlin",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-08-10",
+    "pushedAt": "2026-08-10",
+    "sizeKb": 271,
+    "images": []
+  },
+  {
+    "name": "waru-wms",
+    "description": "WARU-WMS — WMS 3PL multi-tenant (Go+PG18+Valkey+Flutter). Fondasi+identitas+task terbukti; 20/20 serangan hijau.",
+    "language": "Go",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-07-21",
+    "pushedAt": "2026-08-10",
+    "sizeKb": 1902,
+    "images": []
+  },
+  {
+    "name": "face-flow",
+    "description": "",
+    "language": "Python",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-07-28",
+    "pushedAt": "2026-07-28",
+    "sizeKb": 409,
+    "images": []
+  },
+  {
+    "name": "quiz-math",
+    "description": "",
+    "language": "Kotlin",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/quiz-math",
+    "stars": 0,
+    "createdAt": "2026-06-17",
+    "pushedAt": "2026-07-20",
+    "sizeKb": 3152,
+    "images": [
+      {
+        "src": "shots/quiz-math/1.png",
+        "from": "playstore/screenshots_play_9x16/01_onboarding.png"
+      },
+      {
+        "src": "shots/quiz-math/2.png",
+        "from": "playstore/screenshots_play_9x16/02_dashboard.png"
+      },
+      {
+        "src": "shots/quiz-math/3.png",
+        "from": "playstore/screenshots_play_9x16/03_workout.png"
+      },
+      {
+        "src": "shots/quiz-math/4.png",
+        "from": "playstore/screenshots_play_9x16/04_result.png"
+      },
+      {
+        "src": "shots/quiz-math/5.png",
+        "from": "playstore/screenshots_play_9x16/05_stats.png"
+      },
+      {
+        "src": "shots/quiz-math/6.png",
+        "from": "playstore/screenshots_play_9x16/06_achievements.png"
+      }
+    ]
+  },
+  {
+    "name": "warunet",
+    "description": "",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-06-19",
+    "pushedAt": "2026-07-19",
+    "sizeKb": 1361,
+    "images": []
+  },
+  {
+    "name": "rt-creator-challange",
+    "description": "",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-06-14",
+    "pushedAt": "2026-07-18",
+    "sizeKb": 784,
+    "images": []
+  },
+  {
+    "name": "pet-shop",
+    "description": "A clean, 3-page pet shop website (home, products, contact) built with Next.js, React, and Tailwind CSS.",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/pet-shop",
+    "stars": 0,
+    "createdAt": "2026-06-20",
+    "pushedAt": "2026-06-20",
+    "sizeKb": 91,
+    "images": []
+  },
+  {
+    "name": "dget-quiz",
+    "description": "",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2025-10-31",
+    "pushedAt": "2026-06-19",
+    "sizeKb": 63,
+    "images": []
+  },
+  {
+    "name": "snackit-game",
+    "description": "",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2024-08-27",
+    "pushedAt": "2026-06-19",
+    "sizeKb": 75195,
+    "images": []
+  },
+  {
+    "name": "snackit-microsite",
+    "description": "",
+    "language": "HTML",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2024-09-02",
+    "pushedAt": "2026-06-19",
+    "sizeKb": 81319,
+    "images": []
+  },
+  {
+    "name": "taro-spinwheel",
+    "description": "",
+    "language": "JavaScript",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2023-12-19",
+    "pushedAt": "2026-06-19",
+    "sizeKb": 70129,
+    "images": []
+  },
+  {
+    "name": "card-vault",
+    "description": "",
+    "language": "Dart",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/card-vault",
+    "stars": 0,
+    "createdAt": "2026-06-04",
+    "pushedAt": "2026-06-18",
+    "sizeKb": 6486,
+    "images": []
+  },
+  {
+    "name": "app-senter",
+    "description": "",
+    "language": "Kotlin",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/app-senter",
+    "stars": 0,
+    "createdAt": "2026-06-15",
+    "pushedAt": "2026-06-15",
+    "sizeKb": 2607,
+    "images": [
+      {
+        "src": "shots/app-senter/1.png",
+        "from": "playstore/screenshots_en/01_on_dark.png"
+      },
+      {
+        "src": "shots/app-senter/2.png",
+        "from": "playstore/screenshots_en/02_on_light.png"
+      },
+      {
+        "src": "shots/app-senter/3.png",
+        "from": "playstore/screenshots_en/03_off_light.png"
+      },
+      {
+        "src": "shots/app-senter/4.png",
+        "from": "playstore/screenshots_en/04_sos_dark.png"
+      },
+      {
+        "src": "shots/app-senter/5.png",
+        "from": "playstore/screenshots_en/06_off_dark.png"
+      }
+    ]
+  },
+  {
+    "name": "app-todo",
+    "description": "",
+    "language": "Kotlin",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2026-06-04",
+    "pushedAt": "2026-06-04",
+    "sizeKb": 101,
+    "images": []
+  },
+  {
+    "name": "traceori",
+    "description": "",
+    "language": "TypeScript",
+    "topics": [],
+    "visibility": "private",
+    "homepage": "https://traceori.vercel.app",
+    "stars": 0,
+    "createdAt": "2026-06-01",
+    "pushedAt": "2026-06-01",
+    "sizeKb": 197,
+    "images": []
+  },
+  {
+    "name": "pumpcrush",
+    "description": "",
+    "language": "",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2025-10-06",
+    "pushedAt": "2025-10-06",
+    "sizeKb": 0,
+    "images": []
+  },
+  {
+    "name": "snackit-be",
+    "description": "",
+    "language": "",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2024-09-05",
+    "pushedAt": "2024-09-05",
+    "sizeKb": 0,
+    "images": []
+  },
+  {
+    "name": "jenaka_colibri-barakat_id",
+    "description": "",
+    "language": "PHP",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2024-05-25",
+    "pushedAt": "2024-05-25",
+    "sizeKb": 59031,
+    "images": []
+  },
+  {
+    "name": "jenaka_colibri-colibri_id",
+    "description": "",
+    "language": "",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2024-05-25",
+    "pushedAt": "2024-05-25",
+    "sizeKb": 0,
+    "images": []
+  },
+  {
+    "name": "wp-spinwheel",
+    "description": "",
+    "language": "PHP",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2023-12-17",
+    "pushedAt": "2023-12-17",
+    "sizeKb": 20294,
+    "images": []
+  },
+  {
+    "name": "jupedns-ios",
+    "description": "",
+    "language": "HTML",
+    "topics": [],
+    "visibility": "private",
+    "stars": 0,
+    "createdAt": "2019-04-22",
+    "pushedAt": "2019-04-22",
+    "sizeKb": 103738,
+    "images": []
+  },
+  {
+    "name": "Omdb-App",
+    "description": "",
+    "language": "JavaScript",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/Omdb-App",
+    "stars": 0,
+    "createdAt": "2018-11-06",
+    "pushedAt": "2018-11-06",
+    "sizeKb": 2362,
+    "images": []
+  },
+  {
+    "name": "java-kingdom-army",
+    "description": "",
+    "language": "Java",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/java-kingdom-army",
+    "stars": 0,
+    "createdAt": "2018-10-02",
+    "pushedAt": "2018-10-02",
+    "sizeKb": 158,
+    "images": []
+  },
+  {
+    "name": "java-parking-lot",
+    "description": "",
+    "language": "Java",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/java-parking-lot",
+    "stars": 0,
+    "createdAt": "2018-10-02",
+    "pushedAt": "2018-10-02",
+    "sizeKb": 52,
+    "images": []
+  },
+  {
+    "name": "java-puzzle-string",
+    "description": "",
+    "language": "Java",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/java-puzzle-string",
+    "stars": 0,
+    "createdAt": "2018-10-02",
+    "pushedAt": "2018-10-02",
+    "sizeKb": 582,
+    "images": []
+  },
+  {
+    "name": "react-exchange-currencies",
+    "description": "",
+    "language": "JavaScript",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/react-exchange-currencies",
+    "stars": 0,
+    "createdAt": "2018-10-01",
+    "pushedAt": "2018-10-01",
+    "sizeKb": 176,
+    "images": []
+  },
+  {
+    "name": "pazpo-app-android",
+    "description": "",
+    "language": "Java",
+    "topics": [],
+    "visibility": "public",
+    "url": "https://github.com/rizkiwk/pazpo-app-android",
+    "stars": 0,
+    "createdAt": "2017-04-03",
+    "pushedAt": "2017-04-03",
+    "sizeKb": 18881,
+    "images": []
+  }
+]

@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  @apply bg-ink-900 text-slate-300 antialiased;
+  background-image:
+    radial-gradient(60rem 60rem at 80% -10%, rgba(16, 185, 129, 0.08), transparent 60%),
+    radial-gradient(50rem 50rem at -10% 20%, rgba(56, 189, 248, 0.06), transparent 55%);
+  background-attachment: fixed;
+}
+
+/* Thin lab-grid background texture */
+.grid-bg {
+  background-image:
+    linear-gradient(to right, rgba(148, 163, 184, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.04) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+/* Reveal-on-scroll: hidden until .is-visible is added by the observer */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Gradient text helper */
+.text-gradient {
+  @apply bg-gradient-to-r from-lab-glow via-lab to-accent bg-clip-text text-transparent;
+}
+
+/* Custom scrollbar */
+::selection {
+  @apply bg-lab/30 text-white;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-ink-900;
+}
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-ink-600;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-lab/50;
+}

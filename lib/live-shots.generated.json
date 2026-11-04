@@ -1,0 +1,198 @@
+{
+  "asihspa": [
+    {
+      "src": "shots/asihspa/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/asihspa/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/asihspa/live-03.webp",
+      "from": "live"
+    }
+  ],
+  "dget-quiz": [
+    {
+      "src": "shots/dget-quiz/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/dget-quiz/live-02.webp",
+      "from": "live"
+    }
+  ],
+  "doorprize-spin": [
+    {
+      "src": "shots/doorprize-spin/live-01.webp",
+      "from": "live"
+    }
+  ],
+  "jagadhita-sinergi-sejati": [
+    {
+      "src": "shots/jagadhita-sinergi-sejati/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/jagadhita-sinergi-sejati/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/jagadhita-sinergi-sejati/live-03.webp",
+      "from": "live"
+    }
+  ],
+  "kahoot-rt011": [
+    {
+      "src": "shots/kahoot-rt011/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/kahoot-rt011/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/kahoot-rt011/live-03.webp",
+      "from": "live"
+    }
+  ],
+  "meitkasim-com": [
+    {
+      "src": "shots/meitkasim-com/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/meitkasim-com/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/meitkasim-com/live-03.webp",
+      "from": "live"
+    }
+  ],
+  "motownpropertybali": [
+    {
+      "src": "shots/motownpropertybali/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/motownpropertybali/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/motownpropertybali/live-03.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/motownpropertybali/live-04.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/motownpropertybali/live-05.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/motownpropertybali/live-06.webp",
+      "from": "live"
+    }
+  ],
+  "pet-shop": [
+    {
+      "src": "shots/pet-shop/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/pet-shop/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/pet-shop/live-03.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/pet-shop/live-04.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/pet-shop/live-05.webp",
+      "from": "live"
+    }
+  ],
+  "quiz-kahoot": [
+    {
+      "src": "shots/quiz-kahoot/live-01.webp",
+      "from": "live"
+    }
+  ],
+  "rt-creator-challange": [
+    {
+      "src": "shots/rt-creator-challange/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/rt-creator-challange/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/rt-creator-challange/live-03.webp",
+      "from": "live"
+    }
+  ],
+  "skin-check": [
+    {
+      "src": "shots/skin-check/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/skin-check/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/skin-check/live-03.webp",
+      "from": "live"
+    }
+  ],
+  "traceori": [
+    {
+      "src": "shots/traceori/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/traceori/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/traceori/live-03.webp",
+      "from": "live"
+    }
+  ],
+  "warunet": [
+    {
+      "src": "shots/warunet/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/warunet/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/warunet/live-03.webp",
+      "from": "live"
+    }
+  ],
+  "wondergel-band": [
+    {
+      "src": "shots/wondergel-band/live-01.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/wondergel-band/live-02.webp",
+      "from": "live"
+    },
+    {
+      "src": "shots/wondergel-band/live-03.webp",
+      "from": "live"
+    }
+  ]
+}
