@@ -385,6 +385,92 @@ export const liveSites: Record<string, LiveSite> = {
   },
 };
 
+/** Display titles for repos whose name makes a poor card title. */
+export const titles: Record<string, string> = {
+  "erp-next": "Plastic Packaging ERP",
+  "rt011-17-agustus-2026": "RT 011 Festival Workspace",
+  "jenaka_colibri-barakat_id": "Barakat Company Website",
+  "pdf-reader": "Waru PDF",
+  "wp-spinwheel": "WordPress Spin Wheel",
+  "jupedns-ios": "Jupedns iOS",
+  "Omdb-App": "OMDb Movie App",
+  "app-todo": "TaskFlow",
+  "pazpo-app-android": "Pazpo Android",
+  "snackit-game": "Nano Saving Challenge",
+  "snackit-microsite": "Snackit Microsite",
+  "warunet-cafe-board-gamification": "Warunet Café Board Gaming",
+  "avos-presence": "AVOS Presence",
+  "face-flow": "FaceFlow",
+  "java-kingdom-army": "Kingdom Army (Java)",
+  "java-parking-lot": "Parking Lot (Java)",
+  "java-puzzle-string": "Word Search (Java)",
+  "react-exchange-currencies": "Currency Exchange",
+  "padel-management-system": "Padel Venue Operations",
+  "mri-protocol-assistant": "MRI Protocol Assistant",
+  "waru-wms": "WARU-WMS",
+};
+
+/**
+ * Brand weight (0–100) used to order the Projects section, highest first.
+ * Judgment call, not a metric: how recognised the brand/institution behind the project is,
+ * the scale of its reach, and whether it is the owner's own flagship product.
+ * Ties fall back to: has a live site, has a gallery, most recently updated.
+ * Anything not listed gets DEFAULT_BRAND_WEIGHT. Edit the numbers to reorder.
+ */
+export const DEFAULT_BRAND_WEIGHT = 20;
+export const brandWeight: Record<string, number> = {
+  // national brands / institutions
+  "sgmw-multifinance": 95, // vehicle-financing arm of a national automotive brand
+  "sippp-harkit": 92, // national mother-and-child referral hospital
+  "polytron-asset-tracker": 90, // major national consumer-electronics brand
+  // flagship + well-known regional brands
+  traceori: 85, // own flagship SaaS, in production
+  "atlas-property": 80, // property developer (Arcadia, Casavida)
+  warunet: 70,
+  "wondergel-band": 66, // band active since 1992
+  motownpropertybali: 62,
+  "erp-next": 60,
+  "warunet-atp-erp-next": 58,
+  "waru-wms": 58,
+  "taro-spinwheel": 56, // campaign for a national snack brand
+  "bintang-cosmetic": 55,
+  asihspa: 54,
+  "padel-management-system": 52,
+  "jagadhita-sinergi-sejati": 50,
+  "meitkasim-com": 50,
+  "avos-presence": 48,
+  "skin-check": 46,
+  monto: 45,
+  pumpcrush: 45, // own Web3 flagship (repo currently empty)
+  "rt-creator-challange": 44,
+  "ai-desk": 42,
+  "doorprize-spin": 40,
+  "kahoot-rt011": 40,
+  "quiz-kahoot": 38,
+  "snackit-game": 38,
+  "rt011-17-agustus-2026": 36,
+  "snackit-microsite": 36,
+  "face-flow": 36,
+  "dget-quiz": 34,
+  "warunet-cafe-board-gamification": 34,
+  "jenaka_colibri-barakat_id": 34,
+  "card-vault": 32,
+  "mri-protocol-assistant": 32,
+  "pet-shop": 30,
+  "quiz-math": 30,
+  "pdf-reader": 30,
+  "pazpo-app-android": 30,
+  "app-senter": 28,
+  "app-todo": 26,
+  "wp-spinwheel": 26,
+  "jupedns-ios": 22,
+  "Omdb-App": 12,
+  "react-exchange-currencies": 10,
+  "java-kingdom-army": 8,
+  "java-parking-lot": 8,
+  "java-puzzle-string": 8,
+};
+
 /** Live sites without a public repo of their own (Vercel-only or hosted elsewhere). */
 export const vercelOnly: Curated[] = [
   {

@@ -9,7 +9,7 @@
 import { about, shortOf } from "./about";
 import generated from "./repos.generated.json";
 import liveShots from "./live-shots.generated.json";
-import { curated, liveSites, vercelOnly, type Project, type Curated } from "./data";
+import { brandWeight, curated, titles, DEFAULT_BRAND_WEIGHT, liveSites, vercelOnly, type Project, type Curated } from "./data";
 
 export type RepoImage = { src: string; from: string };
 
@@ -66,7 +66,7 @@ function build(): Project[] {
     list.push({
       name: c?.name ?? r.name,
       repo: r.name,
-      title: c?.title ?? live?.title ?? titleCase(r.name),
+      title: c?.title ?? live?.title ?? titles[r.name] ?? titleCase(r.name),
       description:
         about[r.name] ? shortOf(about[r.name].en) : c?.description || live?.description || r.description || "",
       language: c?.language ?? (r.language || "—"),
@@ -108,18 +108,14 @@ function build(): Project[] {
     });
   }
 
-  // Order: projects with a live site first; inside each group featured, then those with a
+  // Order: brand weight (lib/data.ts → brandWeight), highest first. Ties: live site, then
   // screenshot gallery, then most recently updated.
-  const rank = (p: Project) =>
-    (p.homepage ? 0 : 4) + (p.featured ? 0 : 2) + (p.images.length > 0 ? 0 : 1);
-  const order = (p: Project) => {
-    const i = curated.findIndex((c) => c.repo === p.repo);
-    return i < 0 ? 999 : i;
-  };
+  const weight = (p: Project) => brandWeight[p.repo] ?? DEFAULT_BRAND_WEIGHT;
   return list.sort(
     (a, b) =>
-      rank(a) - rank(b) ||
-      (a.featured && b.featured ? order(a) - order(b) : 0) ||
+      weight(b) - weight(a) ||
+      Number(Boolean(b.homepage)) - Number(Boolean(a.homepage)) ||
+      Number(b.images.length > 0) - Number(a.images.length > 0) ||
       b.pushedAt.localeCompare(a.pushedAt),
   );
 }
