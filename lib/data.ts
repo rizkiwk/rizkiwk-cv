@@ -385,6 +385,33 @@ export const liveSites: Record<string, LiveSite> = {
   },
 };
 
+/**
+ * Corrections where GitHub's detected language / our name-based guess is misleading.
+ * `language` is the label shown on the card; `category` drives the filter and cover icon.
+ */
+export const classification: Record<
+  string,
+  { category?: Project["category"]; language?: string }
+> = {
+  "erp-next": { category: "Product", language: "Python" },
+  "avos-presence": { category: "Product", language: "Node.js" },
+  "ai-desk": { category: "Product" },
+  "bintang-cosmetic": { category: "Product", language: "C# / .NET" },
+  "waru-wms": { category: "Product" },
+  "face-flow": { category: "Product" },
+  "snackit-game": { category: "Product", language: "Cocos Creator" },
+  "snackit-microsite": { category: "Web", language: "Next.js" },
+  "taro-spinwheel": { category: "Web", language: "Next.js" },
+  "rt011-17-agustus-2026": { category: "Other", language: "TypeScript" },
+  "Omdb-App": { category: "Mobile", language: "React Native" },
+  "jupedns-ios": { category: "Mobile", language: "iOS" },
+  "jenaka_colibri-barakat_id": { category: "Web", language: "PHP" },
+  "wp-spinwheel": { category: "Web", language: "WordPress" },
+  "asihspa": { language: "Next.js" },
+  "motownpropertybali": { language: "Next.js" },
+  "polytron-asset-tracker": { category: "Product", language: "Kotlin / Go" },
+};
+
 /** Display titles for repos whose name makes a poor card title. */
 export const titles: Record<string, string> = {
   "erp-next": "Plastic Packaging ERP",

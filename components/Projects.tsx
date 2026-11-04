@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { Github, ExternalLink, Star, Lock, Images } from "lucide-react";
+import ProjectCover from "./ProjectCover";
 import ProjectModal from "./ProjectModal";
 import SectionHeading from "./SectionHeading";
 import Reveal from "./Reveal";
@@ -45,20 +46,27 @@ function ProjectCard({ p, onOpen }: { p: Project; onOpen: (p: Project) => void }
       }}
       className="group flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-white/5 bg-ink-800/40 transition-all hover:-translate-y-1 hover:border-lab/40 hover:bg-ink-800/70 focus:outline-none focus-visible:ring-2 focus-visible:ring-lab"
     >
-      {cover && (
-        <div className="relative h-40 w-full overflow-hidden border-b border-white/5 bg-ink-900">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={withBase(cover.src)}
-            alt=""
-            loading="lazy"
-            className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+      <div className="relative h-40 w-full overflow-hidden border-b border-white/5 bg-ink-900">
+        {cover ? (
+          <>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={withBase(cover.src)}
+              alt=""
+              loading="lazy"
+              className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+            />
+            <span className="absolute bottom-2 right-2 flex items-center gap-1 rounded-md bg-ink-900/80 px-2 py-0.5 font-mono text-[10px] text-slate-300">
+              <Images size={11} /> {p.images.length} {ui.projects.shots}
+            </span>
+          </>
+        ) : (
+          <ProjectCover
+            project={p}
+            className="h-full w-full transition-transform duration-500 group-hover:scale-105"
           />
-          <span className="absolute bottom-2 right-2 flex items-center gap-1 rounded-md bg-ink-900/80 px-2 py-0.5 font-mono text-[10px] text-slate-300">
-            <Images size={11} /> {p.images.length} {ui.projects.shots}
-          </span>
-        </div>
-      )}
+        )}
+      </div>
       <div className="flex flex-1 flex-col p-6">
       <div className="mb-3 flex items-start justify-between">
         <div className="flex items-center gap-2 text-slate-500">

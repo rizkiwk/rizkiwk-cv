@@ -9,7 +9,7 @@
 import { about, shortOf } from "./about";
 import generated from "./repos.generated.json";
 import liveShots from "./live-shots.generated.json";
-import { brandWeight, curated, titles, DEFAULT_BRAND_WEIGHT, liveSites, vercelOnly, type Project, type Curated } from "./data";
+import { brandWeight, classification, curated, titles, DEFAULT_BRAND_WEIGHT, liveSites, vercelOnly, type Project, type Curated } from "./data";
 
 export type RepoImage = { src: string; from: string };
 
@@ -69,12 +69,14 @@ function build(): Project[] {
       title: c?.title ?? live?.title ?? titles[r.name] ?? titleCase(r.name),
       description:
         about[r.name] ? shortOf(about[r.name].en) : c?.description || live?.description || r.description || "",
-      language: c?.language ?? (r.language || "—"),
-      tags: c?.tags ?? [...new Set([r.language, ...r.topics].filter(Boolean))].slice(0, 5),
+      language: c?.language ?? classification[r.name]?.language ?? (r.language || "—"),
+      tags:
+        c?.tags ??
+        [...new Set([classification[r.name]?.language ?? r.language, ...r.topics].filter(Boolean))].slice(0, 5),
       url: r.url,
       homepage: (live ? live.homepage : c?.homepage || r.homepage) || undefined,
       featured: c?.featured,
-      category: c?.category ?? inferCategory(r),
+      category: c?.category ?? classification[r.name]?.category ?? inferCategory(r),
       status: c?.status ?? (live?.homepage ? "Live" : undefined),
       visibility: r.visibility,
       about: about[r.name],
@@ -108,14 +110,14 @@ function build(): Project[] {
     });
   }
 
-  // Order: brand weight (lib/data.ts → brandWeight), highest first. Ties: live site, then
-  // screenshot gallery, then most recently updated.
+  // Order: projects with screenshots first; then brand weight (lib/data.ts → brandWeight),
+  // highest first; ties: live site, then most recently updated.
   const weight = (p: Project) => brandWeight[p.repo] ?? DEFAULT_BRAND_WEIGHT;
   return list.sort(
     (a, b) =>
+      Number(b.images.length > 0) - Number(a.images.length > 0) ||
       weight(b) - weight(a) ||
       Number(Boolean(b.homepage)) - Number(Boolean(a.homepage)) ||
-      Number(b.images.length > 0) - Number(a.images.length > 0) ||
       b.pushedAt.localeCompare(a.pushedAt),
   );
 }

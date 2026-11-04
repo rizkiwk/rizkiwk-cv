@@ -10,6 +10,7 @@ import {
   Lock,
   Images,
 } from "lucide-react";
+import ProjectCover from "./ProjectCover";
 import { type Project } from "@/lib/data";
 import { useContent } from "./LanguageProvider";
 
@@ -109,6 +110,9 @@ export default function ProjectModal({ project, onClose }: Props) {
 
         {/* body */}
         <div className="flex-1 overflow-y-auto">
+          {images.length === 0 && (
+            <ProjectCover project={p} className="h-36 w-full border-b border-white/5" />
+          )}
           {images.length > 0 && (
             <div className="border-b border-white/5 bg-ink-900/60 p-4">
               <div className="relative">
