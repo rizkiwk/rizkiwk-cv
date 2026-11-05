@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "AI Workflows",
     "Traceori",
     "Pump Crush",
-    "AVOS",
+    "Warunet",
     "Jakarta",
   ],
   authors: [{ name: profile.name, url: profile.links.github }],

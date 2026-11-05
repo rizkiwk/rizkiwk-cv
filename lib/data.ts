@@ -32,21 +32,23 @@ export type Experience = {
   role: string;
   period: string;
   duration: string;
+  /** Start of an ongoing role (YYYY-MM, or YYYY). When set, `duration` is recomputed at build time. */
+  since?: string;
   location?: string;
   highlights?: string[];
   current?: boolean;
 };
 
-export const experiences: Experience[] = [
+const rawExperiences: Experience[] = [
   {
-    company: "AVOS (avos.co.id)",
+    company: "Warunet",
     role: "Head of Information Technology",
     period: "Jun 2026 — Present",
     duration: "1 mo",
+    since: "2026-06",
     current: true,
     highlights: [
-      "Leading IT strategy and engineering execution at AVOS.",
-      "Building intelligent digital & property solutions.",
+      "Leading IT strategy and engineering execution at Warunet.",
     ],
   },
   {
@@ -54,6 +56,7 @@ export const experiences: Experience[] = [
     role: "Independent Product Builder",
     period: "2023 — Present",
     duration: "3 yrs",
+    since: "2023",
     current: true,
     highlights: [
       "Building AI-assisted, Web3, and SaaS products end-to-end.",
@@ -66,6 +69,7 @@ export const experiences: Experience[] = [
     role: "Head of Technology",
     period: "Sep 2018 — Present",
     duration: "7 yrs 10 mos",
+    since: "2018-09",
     location: "Jakarta Raya, Indonesia",
     current: true,
     highlights: [
@@ -142,6 +146,25 @@ export const experiences: Experience[] = [
     ],
   },
 ];
+
+/** LinkedIn-style span label (inclusive of the start month), evaluated at build time. */
+function spanLabel(since: string, now = new Date()): string {
+  const [y, m] = since.split("-").map(Number);
+  if (!m) {
+    const yrs = now.getFullYear() - y;
+    return `${yrs} yr${yrs === 1 ? "" : "s"}`;
+  }
+  const total = (now.getFullYear() - y) * 12 + (now.getMonth() + 1 - m) + 1;
+  const yrs = Math.floor(total / 12);
+  const mos = total % 12;
+  return [yrs && `${yrs} yr${yrs === 1 ? "" : "s"}`, mos && `${mos} mo${mos === 1 ? "" : "s"}`]
+    .filter(Boolean)
+    .join(" ");
+}
+
+export const experiences: Experience[] = rawExperiences.map((e) =>
+  e.since ? { ...e, duration: spanLabel(e.since) } : e,
+);
 
 export type Project = {
   /** stable key for React/i18n lookups (curated name or repo name) */
