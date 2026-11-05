@@ -42,13 +42,13 @@ export type Experience = {
 const rawExperiences: Experience[] = [
   {
     company: "Warunet",
-    role: "Head of Information Technology",
+    role: "Technology Lead",
     period: "Jun 2026 — Present",
     duration: "1 mo",
     since: "2026-06",
     current: true,
     highlights: [
-      "Leading IT strategy and engineering execution at Warunet.",
+      "Leading technology strategy and engineering execution at Warunet.",
     ],
   },
   {

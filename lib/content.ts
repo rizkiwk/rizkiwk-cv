@@ -38,9 +38,9 @@ const idProfile = {
 
 const idExp: Record<string, { role?: string; highlights?: string[] }> = {
   "Warunet": {
-    role: "Kepala Teknologi Informasi",
+    role: "Technology Lead",
     highlights: [
-      "Memimpin strategi IT dan eksekusi engineering di Warunet.",
+      "Memimpin strategi teknologi dan eksekusi engineering di Warunet.",
     ],
   },
   "Freelance · Self-Employed": {
@@ -187,7 +187,7 @@ function makeUI(lang: Lang, loc: string, yrs: string) {
       about: {
         paragraphs: [
           `Saya seorang Technical Partner dan fullstack engineer berbasis AI yang berbasis di ${loc}, dengan ${yrs} tahun merilis produk nyata di ranah web, mobile, AI, dan Web3.`,
-          `Dari pekerjaan web lepas pada 2012 hingga memimpin IT di Warunet saat ini — sambil membangun produk independen di sela waktu — saya telah merilis di seluruh stack: aplikasi web responsif, mobile native & lintas-platform, backend real-time, dan desain database.`,
+          `Dari pekerjaan web lepas pada 2012 hingga memimpin teknologi di Warunet saat ini — sambil membangun produk independen di sela waktu — saya telah merilis di seluruh stack: aplikasi web responsif, mobile native & lintas-platform, backend real-time, dan desain database.`,
           `Belakangan saya membangun secara berbasis AI. Baru-baru ini saya merilis Pump Crush (gim Web3) dan Traceori (produk berbantuan AI), menggunakan Claude Code dan alur kerja AI modern untuk bergerak dari ide ke produksi dengan cepat. Perangkat saya mencakup React, Next.js, Flutter, React Native, Kotlin, Node.js — dan lainnya.`,
         ],
         education: "Pendidikan",
@@ -259,7 +259,7 @@ function makeUI(lang: Lang, loc: string, yrs: string) {
     about: {
       paragraphs: [
         `I'm a Technical Partner and AI-augmented fullstack engineer based in ${loc}, with ${yrs} years of shipping real products across web, mobile, AI, and Web3.`,
-        `From freelance web work in 2012 to leading IT at Warunet today — while building independent products on the side — I've shipped across the entire stack: responsive web apps, native & cross-platform mobile, real-time backends, and database design.`,
+        `From freelance web work in 2012 to leading technology at Warunet today — while building independent products on the side — I've shipped across the entire stack: responsive web apps, native & cross-platform mobile, real-time backends, and database design.`,
         `Lately I build AI-augmented. I recently shipped Pump Crush (a Web3 game) and Traceori (an AI-assisted product), using Claude Code and modern AI workflows to go from idea to production fast. My toolkit spans React, Next.js, Flutter, React Native, Kotlin, Node.js — and more.`,
       ],
       education: "Education",
