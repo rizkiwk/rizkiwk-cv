@@ -66,15 +66,13 @@ const rawExperiences: Experience[] = [
   },
   {
     company: "Jenaka Creative",
-    role: "Head of Technology",
-    period: "Sep 2018 — Present",
-    duration: "7 yrs 10 mos",
-    since: "2018-09",
+    role: "Technology Lead",
+    period: "Sep 2018 — Sep 2025",
+    duration: "7 yrs 1 mo",
     location: "Jakarta Raya, Indonesia",
-    current: true,
     highlights: [
-      "Lead the technology direction and engineering execution across products.",
-      "Architect and ship full-stack & mobile solutions for clients and in-house products.",
+      "Led the technology direction and engineering execution across products.",
+      "Architected and shipped full-stack & mobile solutions for clients and in-house products.",
     ],
   },
   {

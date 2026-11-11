@@ -52,7 +52,7 @@ const idExp: Record<string, { role?: string; highlights?: string[] }> = {
     ],
   },
   "Jenaka Creative": {
-    role: "Kepala Teknologi",
+    role: "Technology Lead",
     highlights: [
       "Memimpin arah teknologi dan eksekusi engineering di seluruh produk.",
       "Merancang dan merilis solusi full-stack & mobile untuk klien dan produk internal.",
